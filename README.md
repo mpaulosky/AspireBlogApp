@@ -33,7 +33,7 @@ Review the [Code Of Conduct](./doc/CODE_OF_CONDUCT.md).
 
 Some of the best ways to contribute are to try things out, file issues, and make pull-requests.
 
-Check out the [contributing page](CONTRIBUTING.md) to see the best places to log issues and start discussions.
+Check out the [contributing page](./doc/CONTRIBUTING.md) to see the best places to log issues and start discussions.
 
 ****
 
@@ -50,4 +50,4 @@ Check out the [contributing page](CONTRIBUTING.md) to see the best places to log
 
 ## Code of conduct
 
-See the [CODE-OF-CONDUCT](CODE_OF_CONDUCT.md) document.
+See the [CODE-OF-CONDUCT](./doc/CODE_OF_CONDUCT.md) document.
