@@ -45,6 +45,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 SolutionFolder", "1 Solut
 		runsettings.xml = runsettings.xml
 		SECURITY.md = SECURITY.md
 		testEnvironments.json = testEnvironments.json
+		documents\CODE_METRICS.md = documents\CODE_METRICS.md
+		documents\CODE_OF_CONDUCT.md = documents\CODE_OF_CONDUCT.md
+		documents\CONTRIBUTING.md = documents\CONTRIBUTING.md
+		documents\LICENSE = documents\LICENSE
+		documents\README.md = documents\README.md
+		documents\REFERENCES.md = documents\REFERENCES.md
+		documents\SECURITY.md = documents\SECURITY.md
 	EndProjectSection
 EndProject
 Global
