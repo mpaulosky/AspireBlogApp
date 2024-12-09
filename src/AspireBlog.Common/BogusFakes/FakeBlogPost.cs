@@ -28,6 +28,9 @@ public static class FakeBlogPost
 		{
 			post.Id = ObjectId.Empty;
 		}
+		
+		post.IsPublished = false;
+		post.PublishedOn = null;
 
 		return post;
 	}
