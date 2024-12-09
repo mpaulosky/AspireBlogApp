@@ -29,7 +29,7 @@
 [![Deploy Jekyll with GitHub Pages dependencies preinstalled](https://github.com/mpaulosky/AspireBlogApp/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/mpaulosky/AspireBlogApp/actions/workflows/jekyll-gh-pages.yml)
 ## How to Engage, Contribute, and Give Feedback
 
-Review the [Code Of Conduct](CODE_OF_CONDUCT.md).
+Review the [Code Of Conduct](./doc/CODE_OF_CONDUCT.md).
 
 Some of the best ways to contribute are to try things out, file issues, and make pull-requests.
 
