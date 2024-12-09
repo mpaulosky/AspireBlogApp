@@ -26,7 +26,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/mpaulosky/AspireBlogApp?label=Fork&logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/mpaulosky/AspireBlogApp?label=Stars&logo=github)
 ****
-
+[![Deploy Jekyll with GitHub Pages dependencies preinstalled](https://github.com/mpaulosky/AspireBlogApp/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/mpaulosky/AspireBlogApp/actions/workflows/jekyll-gh-pages.yml)
 ## How to Engage, Contribute, and Give Feedback
 
 Review the [Code Of Conduct](CODE_OF_CONDUCT.md).
