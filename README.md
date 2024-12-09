@@ -26,14 +26,14 @@
 ![GitHub forks](https://img.shields.io/github/forks/mpaulosky/AspireBlogApp?label=Fork&logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/mpaulosky/AspireBlogApp?label=Stars&logo=github)
 ****
-
+[![Deploy Jekyll with GitHub Pages dependencies preinstalled](https://github.com/mpaulosky/AspireBlogApp/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/mpaulosky/AspireBlogApp/actions/workflows/jekyll-gh-pages.yml)
 ## How to Engage, Contribute, and Give Feedback
 
-Review the [Code Of Conduct](CODE_OF_CONDUCT.md).
+Review the [Code Of Conduct](./doc/CODE_OF_CONDUCT.md).
 
 Some of the best ways to contribute are to try things out, file issues, and make pull-requests.
 
-Check out the [contributing page](CONTRIBUTING.md) to see the best places to log issues and start discussions.
+Check out the [contributing page](./doc/CONTRIBUTING.md) to see the best places to log issues and start discussions.
 
 ****
 
@@ -50,4 +50,4 @@ Check out the [contributing page](CONTRIBUTING.md) to see the best places to log
 
 ## Code of conduct
 
-See the [CODE-OF-CONDUCT](CODE_OF_CONDUCT.md) document.
+See the [CODE-OF-CONDUCT](./doc/CODE_OF_CONDUCT.md) document.
