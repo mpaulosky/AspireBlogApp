@@ -5,12 +5,13 @@ on:
       - src/**.cs
       - src/**.js
       - src/**.css
+      - tests/**.cs
 permissions:
   contents: write
 
 jobs:
   code-formatting:
-    if: github.ref != 'refs/heads/main' && github.repository != 'mpaulosky/BlazorApp'
+    if: github.ref != 'refs/heads/main' && github.repository != 'mpaulosky/AspireBlogApp'
     runs-on: ubuntu-latest
 
     steps:
@@ -53,7 +54,7 @@ jobs:
         id: dotnet-format
         run: |
           echo -e "\033[36mRunning dotnet format on:\033[0m ${{ steps.changed_cs.outputs.files }}"
-          result=$(dotnet format src/TagzApp.sln --verbosity normal --exclude src/**/Migrations/ --include ${{ steps.changed_cs.outputs.files }})
+          result=$(dotnet format AspireBlogApp.sln --verbosity normal --exclude src/**/Migrations/ --include ${{ steps.changed_cs.outputs.files }})
           echo -e "\033[36mdotnet-format result:\033[0m"
           echo "$result"
           count=$(echo "$result" | grep -c "Formatted code file" || true)
