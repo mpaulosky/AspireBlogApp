@@ -42,12 +42,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 SolutionFolder", "1 Solut
 		testEnvironments.json = testEnvironments.json
 		.github\workflows\jekyll-gh-pages.yml = .github\workflows\jekyll-gh-pages.yml
 		docs\CODE_METRICS.md = docs\CODE_METRICS.md
+		docs\_config.yml = docs\_config.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{23090E55-96E6-43D9-9394-021A260771A4}"
+	ProjectSection(SolutionItems) = preProject
 		docs\CODE_OF_CONDUCT.md = docs\CODE_OF_CONDUCT.md
 		docs\CONTRIBUTING.md = docs\CONTRIBUTING.md
 		docs\LICENSE = docs\LICENSE
 		docs\REFERENCES.md = docs\REFERENCES.md
 		docs\SECURITY.md = docs\SECURITY.md
-		docs\_config.yml = docs\_config.yml
+		docs\README.md = docs\README.md
 	EndProjectSection
 EndProject
 Global
@@ -96,5 +101,6 @@ Global
 		{F1D73A3D-3A2C-48B0-8848-B69E04FCE490} = {02109700-B3C6-4E74-B689-69C6EDB5237F}
 		{65DCA7C6-D828-4693-9B90-2D85805A0F0D} = {02109700-B3C6-4E74-B689-69C6EDB5237F}
 		{25154195-8494-4A63-AE4C-2DC943F68B4E} = {02109700-B3C6-4E74-B689-69C6EDB5237F}
+		{23090E55-96E6-43D9-9394-021A260771A4} = {D88A9A01-BA11-4D32-A634-F8301179A591}
 	EndGlobalSection
 EndGlobal
