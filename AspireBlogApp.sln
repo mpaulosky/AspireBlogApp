@@ -24,34 +24,47 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 SolutionFolder", "1 SolutionFolder", "{D88A9A01-BA11-4D32-A634-F8301179A591}"
 	ProjectSection(SolutionItems) = preProject
 		.github\dependabot.yml = .github\dependabot.yml
-		.github\ISSUE_TEMPLATE\bug_report.md = .github\ISSUE_TEMPLATE\bug_report.md
 		.github\ISSUE_TEMPLATE\config.yml = .github\ISSUE_TEMPLATE\config.yml
-		.github\ISSUE_TEMPLATE\feature_request.md = .github\ISSUE_TEMPLATE\feature_request.md
-		.github\workflows\code-metrics.yml = .github\workflows\code-metrics.yml
-		.github\workflows\codeql-analysis.yml = .github\workflows\codeql-analysis.yml
-		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
-		.github\workflows\dotnetdev.yml = .github\workflows\dotnetdev.yml
 		.dockerignore = .dockerignore
 		.editorconfig = .editorconfig
 		.gitignore = .gitignore
-		CODE_OF_CONDUCT.md = CODE_OF_CONDUCT.md
-		codecov.yml = codecov.yml
-		CONTRIBUTING.md = CONTRIBUTING.md
 		docker-compose.yml = docker-compose.yml
 		Global.json = Global.json
-		LICENSE = LICENSE
 		README.md = README.md
-		REFERENCES.md = REFERENCES.md
 		runsettings.xml = runsettings.xml
-		SECURITY.md = SECURITY.md
 		testEnvironments.json = testEnvironments.json
-		documents\CODE_METRICS.md = documents\CODE_METRICS.md
-		documents\CODE_OF_CONDUCT.md = documents\CODE_OF_CONDUCT.md
-		documents\CONTRIBUTING.md = documents\CONTRIBUTING.md
-		documents\LICENSE = documents\LICENSE
-		documents\README.md = documents\README.md
-		documents\REFERENCES.md = documents\REFERENCES.md
-		documents\SECURITY.md = documents\SECURITY.md
+		docs\CODE_METRICS.md = docs\CODE_METRICS.md
+		docs\_config.yml = docs\_config.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{23090E55-96E6-43D9-9394-021A260771A4}"
+	ProjectSection(SolutionItems) = preProject
+		docs\CODE_OF_CONDUCT.md = docs\CODE_OF_CONDUCT.md
+		docs\CONTRIBUTING.md = docs\CONTRIBUTING.md
+		docs\LICENSE = docs\LICENSE
+		docs\REFERENCES.md = docs\REFERENCES.md
+		docs\SECURITY.md = docs\SECURITY.md
+		docs\README.md = docs\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Issue Templates", "Issue Templates", "{7D0A6C5B-0877-4BE4-89DA-946EAC8A3394}"
+	ProjectSection(SolutionItems) = preProject
+		.github\ISSUE_TEMPLATE\bug_report.md = .github\ISSUE_TEMPLATE\bug_report.md
+		.github\ISSUE_TEMPLATE\feature_request.md = .github\ISSUE_TEMPLATE\feature_request.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Work Flows", "Work Flows", "{F1CBC97C-6B70-4FC9-9F89-1644148FB28F}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\code-metrics.yml = .github\workflows\code-metrics.yml
+		codecov.yml = codecov.yml
+		.github\workflows\codeql-analysis.yml = .github\workflows\codeql-analysis.yml
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+		.github\workflows\dotnetdev.yml = .github\workflows\dotnetdev.yml
+		.github\workflows\jekyll-gh-pages.yml = .github\workflows\jekyll-gh-pages.yml
+		.github\workflows\create-test-report.yml = .github\workflows\create-test-report.yml
+		.github\workflows\formatting.yml = .github\workflows\formatting.yml
+		.github\workflows\todos-to-issues.yml = .github\workflows\todos-to-issues.yml
+		.github\workflows\test-reporting.yml = .github\workflows\test-reporting.yml
 	EndProjectSection
 EndProject
 Global
@@ -100,5 +113,8 @@ Global
 		{F1D73A3D-3A2C-48B0-8848-B69E04FCE490} = {02109700-B3C6-4E74-B689-69C6EDB5237F}
 		{65DCA7C6-D828-4693-9B90-2D85805A0F0D} = {02109700-B3C6-4E74-B689-69C6EDB5237F}
 		{25154195-8494-4A63-AE4C-2DC943F68B4E} = {02109700-B3C6-4E74-B689-69C6EDB5237F}
+		{23090E55-96E6-43D9-9394-021A260771A4} = {D88A9A01-BA11-4D32-A634-F8301179A591}
+		{7D0A6C5B-0877-4BE4-89DA-946EAC8A3394} = {D88A9A01-BA11-4D32-A634-F8301179A591}
+		{F1CBC97C-6B70-4FC9-9F89-1644148FB28F} = {D88A9A01-BA11-4D32-A634-F8301179A591}
 	EndGlobalSection
 EndGlobal
