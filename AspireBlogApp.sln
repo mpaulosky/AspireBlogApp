@@ -41,6 +41,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 SolutionFolder", "1 Solut
 		runsettings.xml = runsettings.xml
 		testEnvironments.json = testEnvironments.json
 		.github\workflows\jekyll-gh-pages.yml = .github\workflows\jekyll-gh-pages.yml
+		docs\CODE_METRICS.md = docs\CODE_METRICS.md
+		docs\CODE_OF_CONDUCT.md = docs\CODE_OF_CONDUCT.md
+		docs\CONTRIBUTING.md = docs\CONTRIBUTING.md
+		docs\LICENSE = docs\LICENSE
+		docs\REFERENCES.md = docs\REFERENCES.md
+		docs\SECURITY.md = docs\SECURITY.md
+		docs\_config.yml = docs\_config.yml
 	EndProjectSection
 EndProject
 Global
