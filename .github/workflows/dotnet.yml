@@ -38,6 +38,7 @@ jobs:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       BUILD_CONFIG: 'Release'
       SOLUTION: 'AspireBlogApp.sln'
+      REPORT_NAME: 'AspireBlogApp-Test-Results'
       TEST-RESULTS: '*/Test Results/**/*.trx'
 
     permissions:
@@ -66,7 +67,7 @@ jobs:
         run: dotnet build $SOLUTION --configuration $BUILD_CONFIG --no-restore
 
       - name: Unit Test
-        run: dotnet test --configuration $BUILD_CONFIG --no-restore --no-build --logger trx --results-directory TestResults
+        run: dotnet test $SOLUTION --configuration $BUILD_CONFIG --no-restore --no-build --logger trx --results-directory TestResults
 
       - name: Upload Event File
         uses: actions/upload-artifact@v4
@@ -87,7 +88,7 @@ jobs:
       - name: Upload dotnet test results
         uses: actions/upload-artifact@v4
         with:
-          name: BlazorApp-test-results
+          name: $REPORT_NAME
           path: TestResults
 
       - name: Install GitVersion
