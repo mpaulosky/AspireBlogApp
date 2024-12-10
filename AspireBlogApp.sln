@@ -34,24 +34,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 SolutionFolder", "1 Solut
 		.dockerignore = .dockerignore
 		.editorconfig = .editorconfig
 		.gitignore = .gitignore
-		CODE_OF_CONDUCT.md = CODE_OF_CONDUCT.md
 		codecov.yml = codecov.yml
-		CONTRIBUTING.md = CONTRIBUTING.md
 		docker-compose.yml = docker-compose.yml
 		Global.json = Global.json
-		LICENSE = LICENSE
 		README.md = README.md
-		REFERENCES.md = REFERENCES.md
 		runsettings.xml = runsettings.xml
-		SECURITY.md = SECURITY.md
 		testEnvironments.json = testEnvironments.json
-		documents\CODE_METRICS.md = documents\CODE_METRICS.md
-		documents\CODE_OF_CONDUCT.md = documents\CODE_OF_CONDUCT.md
-		documents\CONTRIBUTING.md = documents\CONTRIBUTING.md
-		documents\LICENSE = documents\LICENSE
-		documents\README.md = documents\README.md
-		documents\REFERENCES.md = documents\REFERENCES.md
-		documents\SECURITY.md = documents\SECURITY.md
+		doc\_config.yml = doc\_config.yml
+		.github\workflows\jekyll-gh-pages.yml = .github\workflows\jekyll-gh-pages.yml
 	EndProjectSection
 EndProject
 Global
