@@ -4,13 +4,14 @@ codecov:
   require_ci_to_pass: false
 
 test:
-  absolute <relative> (change)
-  35% <72%> (+4%)
+  absolute: 35%
+  relative: 72%
+  change: +4%
 
 coverage:
   precision: 2
   round: down
-  range: "70...100"
+  range: "70..100"
 
 parsers:
   gcov:
