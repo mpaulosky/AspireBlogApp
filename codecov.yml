@@ -1,5 +1,6 @@
 
 codecov:
+  token: $CODECOV_TOKEN
   require_ci_to_pass: false
 
 test:
