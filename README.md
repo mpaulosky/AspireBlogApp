@@ -22,6 +22,8 @@
 ****
 [![codecov](https://codecov.io/gh/mpaulosky/AspireBlogApp/branch/main/graph/badge.svg)](https://codecov.io/gh/mpaulosky/AspireBlogApp)
 [![CodeQL main](https://github.com/mpaulosky/AspireBlogApp/actions/workflows/codeql-analysis.yml/badge.svg?branch=main)](https://github.com/mpaulosky/AspireBlogApp/actions/workflows/codeql-analysis.yml?branch=main)
+[![codecov](https://codecov.io/gh/mpaulosky/AspireBlogApp/graph/badge.svg?token=fRn38KtxDv)](https://codecov.io/gh/mpaulosky/AspireBlogApp)
+
 ****
 ![GitHub forks](https://img.shields.io/github/forks/mpaulosky/AspireBlogApp?label=Fork&logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/mpaulosky/AspireBlogApp?label=Stars&logo=github)
