@@ -64,6 +64,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Work Flows", "Work Flows", 
 		.github\workflows\formatting.yml = .github\workflows\formatting.yml
 		.github\workflows\todos-to-issues.yml = .github\workflows\todos-to-issues.yml
 		.github\workflows\test-reporting.yml = .github\workflows\test-reporting.yml
+		.github\workflows\workflow.yml = .github\workflows\workflow.yml
 	EndProjectSection
 EndProject
 Global
