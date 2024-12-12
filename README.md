@@ -18,12 +18,10 @@
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/mpaulosky/AspireBlogApp/dev?label=last%20commit%20dev&logo=github)
 ****
 ![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/mpaulosky/AspireBlogApp/dotnet.yml?branch=main&label=Build%20%26%20Test%20main&logo=github)
-[![Build and Test dev](https://github.com/mpaulosky/AspireBlogApp/actions/workflows/dotnetdev.yml/badge.svg?branch=dev)](https://github.com/mpaulosky/AspireBlogApp/actions/workflows/dotnetdev.yml)[![Test Results](https://github.com/mpaulosky/AspireBlogApp/actions/workflows/create-test-report.yml/badge.svg)](https://github.com/mpaulosky/AspireBlogApp/actions/workflows/create-test-report.yml)
+![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/mpaulosky/AspireBlogApp/dotnet.yml?branch=dev&label=Build%20%26%20Test%20dev&logo=github)
 ****
-[![codecov](https://codecov.io/gh/mpaulosky/AspireBlogApp/branch/main/graph/badge.svg)](https://codecov.io/gh/mpaulosky/AspireBlogApp)
-[![CodeQL main](https://github.com/mpaulosky/AspireBlogApp/actions/workflows/codeql-analysis.yml/badge.svg?branch=main)](https://github.com/mpaulosky/AspireBlogApp/actions/workflows/codeql-analysis.yml?branch=main)
-[![codecov](https://codecov.io/gh/mpaulosky/AspireBlogApp/graph/badge.svg?token=fRn38KtxDv)](https://codecov.io/gh/mpaulosky/AspireBlogApp)
-
+[![CodeCov Main](https://codecov.io/gh/mpaulosky/AspireBlogApp/branch/main/graph/badge.svg)](https://codecov.io/gh/mpaulosky/AspireBlogApp)
+[![CodeCov Dev](https://codecov.io/gh/mpaulosky/AspireBlogApp/branch/dev/graph/badge.svg)](https://codecov.io/gh/mpaulosky/AspireBlogApp)
 ****
 ![GitHub forks](https://img.shields.io/github/forks/mpaulosky/AspireBlogApp?label=Fork&logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/mpaulosky/AspireBlogApp?label=Stars&logo=github)
@@ -31,11 +29,11 @@
 [![Deploy Jekyll with GitHub Pages dependencies preinstalled](https://github.com/mpaulosky/AspireBlogApp/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/mpaulosky/AspireBlogApp/actions/workflows/jekyll-gh-pages.yml)
 ## How to Engage, Contribute, and Give Feedback
 
-Review the [Code Of Conduct](./doc/CODE_OF_CONDUCT.md).
+Review the [Code Of Conduct](./docs/CODE_OF_CONDUCT.md).
 
 Some of the best ways to contribute are to try things out, file issues, and make pull-requests.
 
-Check out the [contributing page](./doc/CONTRIBUTING.md) to see the best places to log issues and start discussions.
+Check out the [contributing page](./docs/CONTRIBUTING.md) to see the best places to log issues and start discussions.
 
 ****
 
@@ -52,4 +50,4 @@ Check out the [contributing page](./doc/CONTRIBUTING.md) to see the best places 
 
 ## Code of conduct
 
-See the [CODE-OF-CONDUCT](./doc/CODE_OF_CONDUCT.md) document.
+See the [CODE-OF-CONDUCT](./docs/CODE_OF_CONDUCT.md) document.
