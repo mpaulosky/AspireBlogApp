@@ -59,8 +59,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Setup .NET Core SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          global-json-file: ./Global.json
+
       - name: Workload install
-        run: dotnet workload retore 
+        run: dotnet workload restore
+
+      - name: Restores
+        run: dotnet restore
       
       # Initializes the CodeQL tools for scanning.
       - name: Initialize CodeQL
@@ -69,7 +77,7 @@ jobs:
           languages: ${{ matrix.language }}
 
       - name: Autobuild
-        uses: github/codeql-action/autobuild@v3
-
+        run: dotnet build --configuration release
+        
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v3
