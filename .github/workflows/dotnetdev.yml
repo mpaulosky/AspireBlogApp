@@ -36,7 +36,7 @@ jobs:
       BUILD_CONFIG: 'Release --no-restore'
       SOLUTION: 'AspireBlogApp.sln'
       REPORT_NAME: 'AspireBlogApp-Test-Results'
-      
+    
     steps:
       - uses: actions/checkout@v4
       - name: Fetch all history for all tags and branches
@@ -47,7 +47,7 @@ jobs:
         if: ${{ github.event_name == 'workflow_dispatch' }}
         run: |
           echo 'Reason: ${{ github.event.inputs.reason }}'
-      
+
       - name: Setup .NET Core SDK
         uses: actions/setup-dotnet@v4
         with:

@@ -55,8 +55,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Issue Templates", "Issue Te
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Work Flows", "Work Flows", "{F1CBC97C-6B70-4FC9-9F89-1644148FB28F}"
 	ProjectSection(SolutionItems) = preProject
-		.github\workflows\code-metrics.yml = .github\workflows\code-metrics.yml
-		.github\workflows\codeql-analysis.yml = .github\workflows\codeql-analysis.yml
 		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
 		.github\workflows\dotnetdev.yml = .github\workflows\dotnetdev.yml
 		.github\workflows\jekyll-gh-pages.yml = .github\workflows\jekyll-gh-pages.yml
