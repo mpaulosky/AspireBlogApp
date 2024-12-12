@@ -35,13 +35,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 SolutionFolder", "1 Solut
 		testEnvironments.json = testEnvironments.json
 		docs\_config.yml = docs\_config.yml
 		codecov.yml = codecov.yml
+		docs\LICENSE = docs\LICENSE
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{23090E55-96E6-43D9-9394-021A260771A4}"
 	ProjectSection(SolutionItems) = preProject
 		docs\CODE_OF_CONDUCT.md = docs\CODE_OF_CONDUCT.md
 		docs\CONTRIBUTING.md = docs\CONTRIBUTING.md
-		docs\LICENSE = docs\LICENSE
 		docs\REFERENCES.md = docs\REFERENCES.md
 		docs\SECURITY.md = docs\SECURITY.md
 		docs\README.md = docs\README.md
